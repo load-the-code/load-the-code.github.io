@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: louis-external; src: url('fonts/louis-georgecafe-bold.ttf'); }
+@font-face { font-family: rust-external; src: url('fonts/rust.ttf'); }
+
+.font-rust { font-family: rust-external;}
+.font-louis { font-family: louis-external;}
+
+body {
+	-webkit-transition: background-color 600ms linear 1s;
+	-moz-transition: background-color 600ms linear 1s;
+	-o-transition: background-color 600ms linear 1s;
+	transition: background-color 600ms linear 1s;
+
+	background-color: #000000;
+	animation: clr-shift 5s infinite;
+}
+
+@keyframes clr-shift {
+	0%  {background-color: #000000}
+  25%   {background-color: #001218}
+	50%  {background-color: #001624}
+	75%  {background-color: #001d30}
+	100% {background-color: #000000}
+}
+
+header { padding-top: 50px; }
+
+.sm{ margin: 20px 0; }
+.sm span { font-family: monospace; }
+.sm a{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  text-decoration: none;
+  background-color: #434343;
+
+  box-shadow:
+      0 1px 18px rgba(255, 255, 255, 0.4),
+      0 1px 14px rgba(255, 255, 255, 0.6),
+      0 1px 10px rgba(255, 255, 255, 0.8),
+      0 1px 6px rgba(255, 255, 255, 0.9);
+
+  color: #ffffff;
+  font-size: 30px;
+  transition: 0.2s linear;
+}
+
+.sm .github{ color: #ffffff; background-color: #000000 }
+.sm .telegram{ font-size: 26px; color: #00dbff; background-color: #000000 }
+.sm .snapchat{ font-size: 24px; color: #e5b500; background-color: #000000 }
+.sm .tumblr{ color: #2488a0; background-color: #000000 }
+.sm .blog{ color: #ffa600; background-color: #000000 }
+.sm .reddit{ color: #ff5900; background-color: #000000 }
+
+.sm .github:hover{ color: #000000; background-color: #ffffff; transform: scale(1.2); }
+.sm .telegram:hover{ color: #00dbff; background-color: #ffffff; transform: scale(1.2); }
+.sm .snapchat:hover{ color: #e5b500; background-color: #ffffff; transform: scale(1.2); }
+.sm .tumblr:hover{ color: #004f71; background-color: #ffffff; transform: scale(1.2); }
+.sm .blog:hover{ color: #ffa600; background-color: #ffffff; transform: scale(1.2); }
+.sm .reddit:hover{ color: #ff5900; background-color: #ffffff; transform: scale(1.2); }
+
+
+.wrapper {
+  color: #ffffff;
+  cursor: default;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+
+  min-height: 100vh;
+/*  min-height: Calc(100vh - 50px);*/ /* works but doesn't support internet exp... */
+}
+
+.blinker {
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  background-color: rgba();
+  animation: blinke 1s infinite;
+}
+
+@keyframes blinke {
+  0%   {background-color: rgb(23, 255, 0);}
+  50%   {background-color: transparent;}
+  100%   {background-color: rgb(23, 255, 0);}
+}
+
+
+footer {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 20px;
+}
+
+footer a { color: #003434; text-decoration: none; }
+
+.cursor {
+  display: inline-block;
+  padding-top: 10px;
+  background-color: rgb(23, 255, 0);
+  animation: blinker 800ms infinite;
+}
+
+.cursor.typing-true { animation: none; }
+
+@keyframes blinker {
+  0% { background-color: rgb(23, 255, 0); }
+  50% { background-color: transparent; }
+  100% { background-color: rgb(23, 255, 0); }
+}
