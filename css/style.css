@@ -60,6 +60,7 @@ header { padding-top: 50px; }
 .sm .tumblr{ color: #2488a0; background-color: #000000 }
 .sm .blog{ color: #ffa600; background-color: #000000 }
 .sm .reddit{ color: #ff5900; background-color: #000000 }
+.sm .youtube{ color: #ff0a0a; background-color: #000000; }
 
 .sm .instagram:hover{ color: #ff2255; background-color: #ffffff; transform: scale(1.3); }
 .sm .github:hover{ color: #000000; background-color: #ffffff; transform: scale(1.3); }
@@ -68,6 +69,7 @@ header { padding-top: 50px; }
 .sm .tumblr:hover{ color: #004f71; background-color: #ffffff; transform: scale(1.3); }
 .sm .blog:hover{ color: #ffa600; background-color: #ffffff; transform: scale(1.3); }
 .sm .reddit:hover{ color: #ff5900; background-color: #ffffff; transform: scale(1.3); }
+.sm .youtube:hover{ color: #ff0a0a; background-color: #ffffff; transform: scale(1.5); }
 
 
 .wrapper {
