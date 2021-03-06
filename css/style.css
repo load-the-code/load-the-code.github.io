@@ -52,7 +52,7 @@ header { padding-top: 50px; }
   transition: 0.2s linear;
 }
 
-
+.sm .twitter{ color: #1DA1F2; background-color: #000000; }
 .sm .instagram{ color: #ff2255; background-color: #000000; }
 .sm .github{ color: #ffffff; background-color: #000000 }
 .sm .telegram{ font-size: 26px; color: #00dbff; background-color: #000000 }
@@ -63,6 +63,8 @@ header { padding-top: 50px; }
 .sm .youtube{ color: #ff0a0a; background-color: #000000; }
 .sm .spotify{ color: #1DB954; background-color: #000000; }
 
+
+.sm .twitter:hover{ color: #1DA1F2; background-color: #ffffff; transform: scale(1.3); }
 .sm .instagram:hover{ color: #ff2255; background-color: #ffffff; transform: scale(1.3); }
 .sm .github:hover{ color: #000000; background-color: #ffffff; transform: scale(1.3); }
 .sm .telegram:hover{ color: #00dbff; background-color: #ffffff; transform: scale(1.3); }
