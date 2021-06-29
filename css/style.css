@@ -57,7 +57,7 @@ header { padding-top: 50px; }
 .sm .twitter{ color: #1DA1F2; background-color: #000000; }
 .sm .github{ color: #ffffff; background-color: #000000 }
 .sm .telegram{ font-size: 26px; color: #00dbff; background-color: #000000 }
-.sm .snapchat{ font-size: 24px; color: #e5b500; background-color: #000000 }
+.sm .snapchat{ font-size: 24px; color: #25D366; background-color: #000000 }
 .sm .tumblr{ color: #2488a0; background-color: #000000 }
 .sm .blog{ color: #ffa600; background-color: #000000 }
 .sm .reddit{ color: #ff5900; background-color: #000000 }
@@ -70,7 +70,7 @@ header { padding-top: 50px; }
 .sm .twitter:hover{ color: #1DA1F2; background-color: #ffffff; transform: scale(1.3); }
 .sm .github:hover{ color: #000000; background-color: #ffffff; transform: scale(1.3); }
 .sm .telegram:hover{ color: #00dbff; background-color: #ffffff; transform: scale(1.3); }
-.sm .snapchat:hover{ color: #e5b500; background-color: #ffffff; transform: scale(1.3); }
+.sm .snapchat:hover{ color: #25D366; background-color: #ffffff; transform: scale(1.3); }
 .sm .tumblr:hover{ color: #004f71; background-color: #ffffff; transform: scale(1.3); }
 .sm .blog:hover{ color: #ffa600; background-color: #ffffff; transform: scale(1.3); }
 .sm .reddit:hover{ color: #ff5900; background-color: #ffffff; transform: scale(1.3); }
